@@ -1,0 +1,39 @@
+/* This is the general styling */
+* {
+  font-family: helvetica;
+  font-size: 22px
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+/* This is the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: black;
+}
+.top.nav li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 10px 10px 9px 0px;
+}
+.top.nav li a {
+  color: seashell;
+  text-decoration: underline;
+}
+.logo img {
+  height: 50px;
+}
+.logo {
+  padding: 10px 0px 9px 10px;
+}
+/* This is the first section */
+/* This is the second section */
+/* This is the third section */
+/* This is the footer */
