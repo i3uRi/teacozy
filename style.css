@@ -34,6 +34,22 @@ header {
   padding: 10px 0px 9px 10px;
 }
 /* This is the first section */
+.our.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mission.background {
+  height: 700px;
+  width: 1200px;
+}
+.mission.headline {
+  color: seashell;
+  position: relative;
+  width: 1200px;
+  text-align: center;
+  margin-top: -350px;
+}
 /* This is the second section */
 /* This is the third section */
 /* This is the footer */
