@@ -52,22 +52,24 @@ header {
   position: relative;
   flex-wrap: wrap;
 }
-.mission.background {
+.mission .mission-background {
   margin-top: 70px;
   height: 100%;
   width: 1200px;
   height: 700px;
-  ;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 }
-.mission.headline {
+.mission .mission-headline {
   color: seashell;
-  position: relative;
+  position: absolute;
   width: 1200px;
   text-align: center;
   display: block;
+  top: 50%;
+  transform: translateY(-50%); /* This one was added with some support from a Developer :P */
 }
 /* This is the second section */
-.tea.headline {
+.tea-headline {
   position: absolute;
   color: seashell;
   width: 1000px;
@@ -79,6 +81,7 @@ header {
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-top: 80px;
 }
 .offer {
   display: flex;
@@ -87,12 +90,69 @@ header {
 .grid {
   width: 1000px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: wrap;
   background-color: none;
+  text-align: center;
+  color: seashell
+
 }
 .grid img {
   max-width: 100%;
   max-height: 200px;
 }
+.item {
+  padding: 0px 15px;
+}
+.item h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 /* This is the third section */
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+.locations .locations-background {
+  margin-top: 70px;
+  height: 100%;
+  width: 1200px;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+.locations .locations-headline {
+  color: seashell;
+  width: 1200px;
+  text-align: center;
+  display: block;
+  top: 10%;
+}
+.locations-headline h2 {
+  background-color: ;
+}
+.addresses {
+  display: flex;
+  justify-content: center;
+  color: seashell;
+  background-color: black;
+  opacity: 1;
+  width: 1020px;
+  height: 100%;
+  padding: 40px;
+  top: 100px;
+}
+.address-details {
+  display: block;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+.locations-block {
+  position: absolute;
+  top: 100px;
+}
 /* This is the footer */
